@@ -1,0 +1,48 @@
+====================================================================
+GUIA RAPIDA: COMO EJECUTAR ESTE SISTEMA EN OTRA COMPUTADORA
+====================================================================
+
+Este sistema web esta listo para funcionar de manera local e independiente 
+en cualquier computadora con Windows (laptop o PC de escritorio).
+
+--------------------------------------------------------------------
+PASO 1: REQUISITO UNICO (Solo si la PC no lo tiene)
+--------------------------------------------------------------------
+La computadora necesita tener instalado Node.js (es gratuito y seguro).
+- Si ya lo tienes, pasa al PASO 2.
+- Si no lo tienes, descargalo gratis en: https://nodejs.org
+  (Descarga la version recomendada "LTS" e instalala dando "Siguiente" a todo).
+
+--------------------------------------------------------------------
+PASO 2: INICIAR EL SISTEMA
+--------------------------------------------------------------------
+1. Descomprime esta carpeta en tu computadora (ejemplo: en el Escritorio o Disco D:\).
+2. Haz doble clic en el archivo:
+   
+   👉 start.bat
+
+3. La primera vez se instalaran automaticamente las dependencias (toma 1 minuto).
+4. El sistema se abrira SOLO en tu navegador web en:
+   
+   http://localhost:3000
+
+--------------------------------------------------------------------
+PASO 3: COMO CARGAR LOS DATOS Y TURNOS DE TU COLEGA
+--------------------------------------------------------------------
+Los datos se guardan en el navegador de cada computadora.
+Para tener exactamente los mismos turnos y colaboradores que tu colega:
+
+1. Pidele a tu colega que en su pantalla haga clic en "Descargar Copia JSON" 
+   (ubicado en la esquina superior derecha o menu de opciones).
+2. Te enviara un archivito que termina en .json por WhatsApp o correo.
+3. En tu pantalla, haz clic en "Restaurar Copia JSON" y selecciona ese archivo.
+4. ¡Listo! Tendras toda la programacion, personal y ajustes al instante.
+
+--------------------------------------------------------------------
+FUNCIONES PRINCIPALES DEL SISTEMA:
+--------------------------------------------------------------------
+- Guardia de Hoy: Quienes estan de turno diurno (8am-8pm), nocturno (8pm-8am) y descanso.
+- Rol Mensual: Matriz con los 30/31 dias del mes y autoguardado en vivo.
+- Asistente de Reemplazos: Sugiere en 1 clic quien cubre a alguien que falta.
+- Descarga de reportes: Botones para descargar en Excel (.xlsx) o imprimir en PDF.
+====================================================================
